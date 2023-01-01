@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #DCE6F4;
+    font-family: roboto, arial;
+    border-bottom: 1px solid #a5967841;
+    height: 55px;
+    z-index: 2000;
+}
+
+.left-section {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-section {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.navigation {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: roboto;
+    color: #495B73;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #DCE6F4;
+    transition: background-color color 0.15s;
+}
+
+.navigation:hover {
+    background-color: #164798;
+    color: white;
+}
+
+
+.logo {
+    font-family: unbounded;
+    font-weight: 900;
+    color: #164798;
+    margin-left: 50px;
+    margin-top: 2px;
+    margin-right: -14px;
+    z-index: 500;
+}
+
+.my-avatar {
+    width:40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+.search-icon {
+    width: 30px;
+}
